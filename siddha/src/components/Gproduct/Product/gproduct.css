@@ -1,0 +1,50 @@
+
+  .sectiong {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    
+  }
+  .cards {
+    width: 350px;
+    padding: 30px;
+  }
+  .cards:hover {
+    box-shadow: 0 10px 10px 10px rbga(0, 0, 0, white);
+    /* cursor: pointer; */
+  }
+  /* .image_box img {
+    width: 250px;
+    height: 200px;
+  } */
+  
+  .image_box img {
+    border-radius: 1rem;
+    width: 300px;
+    height: 300px;
+  }
+  .details p:nth-child(1) {
+    color: rgb(10, 9, 9);
+    font-weight: bold;
+  }
+  .details p:nth-child(2) {
+    color: rgb(10, 9, 9);
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .details p:nth-child(3) {
+    font-weight: bolx;
+    color: rgb(6, 6, 6);
+  }
+  .details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(5, 247, 138);
+    outline: none;
+    cursor: pointer;
+  }
+  
